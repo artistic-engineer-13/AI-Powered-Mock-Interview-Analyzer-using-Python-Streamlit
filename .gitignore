@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Secrets and Configuration
+.env
+
+# Streamlit logs and cache
+.streamlit/
+! .streamlit/config.toml
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local uploads and temporary artifacts
+uploads/*
+!uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
